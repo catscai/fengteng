@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="视频">
+      <UniqueIdentifier>{e084697a-371c-437a-9df3-9ae742a6d021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="定义声明">
+      <UniqueIdentifier>{f6ac7a75-b664-417b-bb70-1aaf8efc9c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="网络消息">
+      <UniqueIdentifier>{9f87df0d-7094-4ea7-a582-bbed5f817103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="线程池">
+      <UniqueIdentifier>{0d117171-0b56-49a5-b1c3-5947114d289e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="路径配置">
+      <UniqueIdentifier>{45b07a45-0bab-4c9d-84b7-330f32d08d5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="0117MP4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="0117MP4Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyComDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\video\VideoManager.h">
+      <Filter>视频</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Packdef\Packdef.h">
+      <Filter>定义声明</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetMessage\IMediator.h">
+      <Filter>网络消息</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetMessage\INet.h">
+      <Filter>网络消息</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetMessage\UDPMediator.h">
+      <Filter>网络消息</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetMessage\UDPNet.h">
+      <Filter>网络消息</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLoginDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyWndMeg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRegisterDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPublicWordDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStreaming.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayListBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThreadPool\MyQueue.h">
+      <Filter>线程池</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThreadPool\TestThreadPool.h">
+      <Filter>线程池</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDownLoadListDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTabCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDownTaskDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDownFinishedDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDownLocalDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCollectDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SerachDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectFolderDlg.h">
+      <Filter>路径配置</Filter>
+    </ClInclude>
+    <ClInclude Include="MySetConfigDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadConfigFile.h">
+      <Filter>路径配置</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteConfigFile.h">
+      <Filter>路径配置</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="0117MP4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0117MP4Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyComDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\video\VideoManager.cpp">
+      <Filter>视频</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetMessage\UDPMediator.cpp">
+      <Filter>网络消息</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetMessage\UDPNet.cpp">
+      <Filter>网络消息</Filter>
+    </ClCompile>
+    <ClCompile Include="MyWndMeg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLoginDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRegisterDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPublicWordDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyStreaming.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayListBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThreadPool\TestThreadPool.cpp">
+      <Filter>线程池</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDownLoadListDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTabCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDownTaskDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDownFinishedDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDownLocalDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCollectDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SerachDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectFolderDlg.cpp">
+      <Filter>路径配置</Filter>
+    </ClCompile>
+    <ClCompile Include="MySetConfigDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadConfigFile.cpp">
+      <Filter>路径配置</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteConfigFile.cpp">
+      <Filter>路径配置</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="0117MP4.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My0117MP4.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\0117MP4.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\playBMG.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\last.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\next.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pause.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\play.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\stop.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\maxSize.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\blackPlay.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\121.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\fengteng.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\fengtengblack.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

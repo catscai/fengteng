@@ -1,0 +1,68 @@
+﻿生成启动时间为 2018/3/10 19:51:08。
+     1>项目“C:\Users\Administrator\Documents\Visual Studio 2012\Projects\0117MP4\0117MP4\0117MP4.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I../Video /I../0117MP4 /I../Packdef /I../NetMessage /I../ThreadPool /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\0117MP4.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I../Video /I../0117MP4 /I../Packdef /I../NetMessage /I../ThreadPool /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\0117MP4.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt ..\NetMessage\UDPMediator.cpp ..\NetMessage\UDPNet.cpp ..\ThreadPool\MyThreadPool.cpp ..\ThreadPool\TestThreadPool.cpp ..\video\VideoManager.cpp 0117MP4.cpp 0117MP4Dlg.cpp MyCollectDlg.cpp MyComDlg.cpp MyDownFinishedDlg.cpp MyDownLoadListDlg.cpp MyDownLocalDlg.cpp MyDownTaskDlg.cpp MyLoginDlg.cpp MyPublicWordDlg.cpp MyRegisterDlg.cpp MyStreaming.cpp MyTabCtrl.cpp MyTools.cpp MyWndMeg.cpp PlayListBox.cpp ProcessList.cpp
+         ProcessList.cpp
+     1>ProcessList.cpp(92): warning C4244: “初始化”: 从“DWORD_PTR”转换到“int”，可能丢失数据
+         PlayListBox.cpp
+         MyWndMeg.cpp
+         MyTools.cpp
+         MyTabCtrl.cpp
+         MyStreaming.cpp
+         MyRegisterDlg.cpp
+         MyPublicWordDlg.cpp
+         MyLoginDlg.cpp
+         MyDownTaskDlg.cpp
+         MyDownLocalDlg.cpp
+         MyDownLoadListDlg.cpp
+         MyDownFinishedDlg.cpp
+         MyComDlg.cpp
+         MyCollectDlg.cpp
+         0117MP4Dlg.cpp
+     1>0117MP4Dlg.cpp(378): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>0117MP4Dlg.cpp(385): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         0117MP4.cpp
+         VideoManager.cpp
+     1>..\video\VideoManager.cpp(118): warning C4244: “=”: 从“double”转换到“libvlc_time_t”，可能丢失数据
+         TestThreadPool.cpp
+         MyThreadPool.cpp
+         正在生成代码...
+         正在编译...
+         UDPNet.cpp
+         UDPMediator.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /Ix64\Debug\ /nologo /fo"x64\Debug\0117MP4.res" 0117MP4.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\Visual Studio 2012\Projects\0117MP4\x64\Debug\0117MP4.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Administrator\Documents\Visual Studio 2012\Projects\0117MP4\x64\Debug\0117MP4.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\Visual Studio 2012\Projects\0117MP4\x64\Debug\0117MP4.lib" /MACHINE:X64 x64\Debug\0117MP4.res
+         x64\Debug\UDPMediator.obj
+         x64\Debug\UDPNet.obj
+         x64\Debug\MyThreadPool.obj
+         x64\Debug\TestThreadPool.obj
+         x64\Debug\VideoManager.obj
+         x64\Debug\0117MP4.obj
+         x64\Debug\0117MP4Dlg.obj
+         x64\Debug\MyCollectDlg.obj
+         x64\Debug\MyComDlg.obj
+         x64\Debug\MyDownFinishedDlg.obj
+         x64\Debug\MyDownLoadListDlg.obj
+         x64\Debug\MyDownLocalDlg.obj
+         x64\Debug\MyDownTaskDlg.obj
+         x64\Debug\MyLoginDlg.obj
+         x64\Debug\MyPublicWordDlg.obj
+         x64\Debug\MyRegisterDlg.obj
+         x64\Debug\MyStreaming.obj
+         x64\Debug\MyTabCtrl.obj
+         x64\Debug\MyTools.obj
+         x64\Debug\MyWndMeg.obj
+         x64\Debug\PlayListBox.obj
+         x64\Debug\ProcessList.obj
+         x64\Debug\stdafx.obj
+     1>SkinPPWTL.lib(SkinPPWTL.dll) : fatal error LNK1112: 模块计算机类型“X86”与目标计算机类型“x64”冲突
+     1>已完成生成项目“C:\Users\Administrator\Documents\Visual Studio 2012\Projects\0117MP4\0117MP4\0117MP4.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:21.76
